@@ -1,0 +1,12 @@
+
+version: '3'
+
+services:
+  backend:
+    image: 'conf_prueba'
+    container_name: 'friendly_banzai'
+  
+
+    restart: always
+    ports:
+      - '8000:8000'
